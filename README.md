@@ -3,4 +3,6 @@
 
 Estou aprendendo a   criar sites e agora vou gerenciar meus repositorios!
 
-Ola Mundo
+Ola Mundo revolucionario
+
+<a href="https://lucaszaach.github.io/HTML-CSS/ex001/index.html"> Executar o exercio 001 </a>
