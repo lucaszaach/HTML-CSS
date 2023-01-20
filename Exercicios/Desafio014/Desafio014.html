@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+
+        th {
+            background-color: gray;
+            color: white;
+            border: 1px solid black;
+            font-size: 1em;
+            padding: 5px;
+            font-weight: normal;
+        }
+        td.position {
+            text-align: left;
+        }
+         td {
+            font-size: 1em;
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        td.t1 {
+            font-weight: bold;
+        }
+        td.position {
+            text-align: center;
+        }
+
+     
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" colspan="2">Área</th>
+                <th colspan="2" rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+            </tr>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2" rowspan="6" class="t1">Exatas</td>
+                <td colspan="2" class="Position">Matematica</td>
+                <td class="Position">0.0</td>
+                <td class="Position">0.0</td>
+                <td class="Position">0.0</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="Position">Fisica</td>
+                <td class="Position">0.0</td>
+                <td class="Position">0.0</td>
+                <td class="Position">0.0</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="Position">Quimica</td>
+                <td class="Position">0.0</td>
+                <td class="Position">0.0</td>
+                <td class="Position">0.0</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="Position">Biologia</td>
+                <td class="Position">0.0</td>
+                <td class="Position">0.0</td>
+                <td class="Position">0.0</td>
+            </tr>
+        </tbody>
+            <tr>
+                <th colspan="6" class="Position">Média de Exatas</th>
+                <th>0.0</th>
+            </tr>
+        <thead>
+            <tr>
+                <td colspan="2" rowspan="2" class="t1">Humanas</td>
+                <td colspan="2">História</td>
+                <td class="Position">0.0</td>
+                <td class="Position">0.0</td>
+                <td class="Position">0.0</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="Position">Geografia</td>
+                <td class="Position">0.0</td>
+                <td class="Position">0.0</td>
+                <td class="Position">0.0</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <th colspan="6" class="Position">Média de Humanas</th>
+                    <th>0.0</th>
+                </tr>
+            </tfoot>
+        </thead>
+    </table>
+    
+    
+</body>
+</html>
